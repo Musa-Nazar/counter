@@ -1,0 +1,25 @@
+body{
+  overflow: hidden;
+}
+.container{
+  grid-template-columns: 1fr;
+}
+.container > div{
+  height: 100vh;
+  width: 100VW;
+}
+.count{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 2rem;
+  height: 100vh !important;
+  border: none;
+}
+.record{
+  height: 100vh;
+  width: 100%;
+}
+.bottom{
+  display: block;
+}

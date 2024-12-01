@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatable" content="IE-Edge">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" media="screen and (max-width: 768px)" href="./mobile.css">
+  <title>Task Counter</title>
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <div class="count" id="count">
+      <div>
+        <h3>Task Count :</h3>
+        <p class="task-number" id="task-number">0</p>
+        <button class="btn" id="task-btn"></button>
+      </div>
+      <a href ="#record" class="bottom">Next</a>
+    </div>
+    <div class="record" id="record">
+      <div>
+        <div>
+          <h1>Records</h1>
+          <button class="btn-record" id="record-btn">Record</button>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <th>id</th>
+              <th>tasks</th>
+              <th>date</th>
+            </tr>
+          </thead>
+          <tbody>
+          
+          </tbody>
+        </table>
+      </div>
+      <a href ="#count" class="bottom">Previous</a>
+    </div>
+  </div>
+</body>
+</html>
