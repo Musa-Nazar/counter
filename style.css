@@ -139,7 +139,7 @@ button{
 .bottom{
   position: absolute;
   background-color: #00D2FF;
-  bottom: 0;
+  bottom: 200px;
   right: 0;
   display: none;
   padding: 1rem;
