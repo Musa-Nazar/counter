@@ -139,7 +139,8 @@ button{
 .bottom{
   position: absolute;
   background-color: #00D2FF;
-  bottom: 50%;
+  bottom: 100%;
+  transform: translateY(-50%);
   right: 0;
   display: none;
   padding: 1rem;
