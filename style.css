@@ -139,11 +139,13 @@ button{
 .bottom{
   position: absolute;
   background-color: #00D2FF;
-  bottom: 100px;
+  bottom: 0px;
   right: 0;
   display: none;
   padding: 1rem;
   border: none;
   border-radius: 40px 3px 3px 3px;
   z-index: 5;
+  text-decoration: none;
+  font-faily: 'Raleway',sans-serif;
 }
