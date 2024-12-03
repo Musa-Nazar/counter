@@ -41,7 +41,7 @@ const recordHandler = (function(){
     let date = new Date;
     this.id = id;
     this.task = task;
-    this.date = `${date.getDate()} - ${date.getMonth()} - ${date.getFullYear()}`;
+    this.date = `${date.getDate()} - ${parseInt(date.getMonth()) + 1} - ${date.getFullYear()}`;
   }
   let collection = [];
   return {
