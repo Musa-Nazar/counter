@@ -79,9 +79,6 @@ table > thead > tr >th
   justify-content: center;
   font-weight: 400;
 } 
-table > tbody > tr > td:nth-child(2){
-  background-color: snow;
-}
 table > thead > tr > th,
 table > tbody > tr > td{
   box-shadow: -1px 0px 5px rgba(0,0,0,0.2);
