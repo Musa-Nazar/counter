@@ -93,6 +93,7 @@ table > tbody > tr:nth-child(2n) td:first-child{
 }
 table > tbody > tr > td{
   padding: 0.625rem 0;
+  color: rgba(0,0,0,0.8);
 }
 button{
   display: inline-block;
