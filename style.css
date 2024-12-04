@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Questrial&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+⁷@import url('https://fonts.googleapis.com/css2?family=Questrial&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Questrial&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 *{
   margin: 0;
@@ -83,7 +83,7 @@ table > thead > tr > th,
 table > tbody > tr > td{
   box-shadow: -1px 0px 5px rgba(0,0,0,0.2);
 }
-table > tbody > tr:nth-child(3n + 0) td:nth-child(2),
+table > tbody > tr:nth-child(2n + 3) td:nth-child(2),
 table > tbody > tr:nth-child(1) td:nth-child(2){
   background-color: snow;
 }
